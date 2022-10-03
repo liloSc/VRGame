@@ -141,7 +141,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:C:/Users/Katerina/Desktop/UnityProj/PicoUnityXRSDK",
+      "version": "file:../PicoUnityXRSDK",
       "depth": 0,
       "source": "local",
       "dependencies": {
