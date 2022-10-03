@@ -41,6 +41,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.inputsystem": {
+      "version": "1.3.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.services.core": {
       "version": "1.0.1",
       "depth": 1,
@@ -132,7 +141,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:C:/Users/kkoleva/Documents/UnityProj/PicoUnityXRSDK",
+      "version": "file:C:/Users/Katerina/Desktop/UnityProj/PicoUnityXRSDK",
       "depth": 0,
       "source": "local",
       "dependencies": {
