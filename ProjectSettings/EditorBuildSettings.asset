@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestBall.unity
     guid: 8e94b0f1c63ee8343b8e62f9ff7d23eb
+  - enabled: 0
+    path: Assets/Scenes/TestingPlayerPosition.unity
+    guid: ac08127b7d45f48b3a17758e701805cf
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: bd4d70b73d858954a862172f9224309f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 17f3c83783bded64f9c4b1a32de7da8b, type: 2}
