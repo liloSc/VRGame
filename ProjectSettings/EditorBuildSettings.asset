@@ -14,9 +14,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TestingPlayerPosition.unity
     guid: ac08127b7d45f48b3a17758e701805cf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestLilo.unity
     guid: dd1cafc013a294cdd9284ffd7b404f77
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 73896a2efca094bc49cf4a291cb72f06
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 8b0e5ba47e6db474ab9ca0435065765a
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: 46cd783a89f81442bb09d1264dcdc0e7
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: bd4d70b73d858954a862172f9224309f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 17f3c83783bded64f9c4b1a32de7da8b, type: 2}
