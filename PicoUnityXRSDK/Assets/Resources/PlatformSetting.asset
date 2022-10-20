@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e9912c3d53ea044b8ac398ccaa3770, type: 3}
   m_Name: PlatformSetting
   m_EditorClassIdentifier: 
-  entitlementchecksimulation: 0
+  entitlementCheckSimulation: 0
   startTimeEntitlementCheck: 0
   appID: 
   deviceSN: []
