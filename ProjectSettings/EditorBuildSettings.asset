@@ -6,28 +6,28 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Archiv/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Scenes/TestingPlayerPosition.unity
+    path: Assets/Scenes/Archiv/TestingPlayerPosition.unity
     guid: ac08127b7d45f48b3a17758e701805cf
   - enabled: 0
-    path: Assets/Scenes/TestLilo.unity
+    path: Assets/Scenes/Archiv/TestLilo.unity
     guid: dd1cafc013a294cdd9284ffd7b404f77
   - enabled: 0
-    path: Assets/Scenes/MainScene.unity
+    path: Assets/Scenes/Archiv/MainScene.unity
     guid: 73896a2efca094bc49cf4a291cb72f06
   - enabled: 1
     path: Assets/Scenes/FirstScene.unity
     guid: bfa716fd89bf54681943a3edb1cbc344
   - enabled: 1
-    path: Assets/Scenes/Scene1.unity
+    path: Assets/Scenes/Archiv/Scene1.unity
     guid: 8b0e5ba47e6db474ab9ca0435065765a
   - enabled: 0
-    path: Assets/Scenes/Scene2.unity
+    path: Assets/Scenes/Archiv/Scene2.unity
     guid: 46cd783a89f81442bb09d1264dcdc0e7
   - enabled: 1
-    path: Assets/Scenes/TestBall.unity
+    path: Assets/Scenes/Archiv/TestBall.unity
     guid: 8e94b0f1c63ee8343b8e62f9ff7d23eb
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: bd4d70b73d858954a862172f9224309f, type: 2}
