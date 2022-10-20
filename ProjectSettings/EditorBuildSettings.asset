@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Scenes/TestBall.unity
-    guid: 8e94b0f1c63ee8343b8e62f9ff7d23eb
-  - enabled: 0
     path: Assets/Scenes/TestingPlayerPosition.unity
     guid: ac08127b7d45f48b3a17758e701805cf
   - enabled: 0
@@ -26,9 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene1.unity
     guid: 8b0e5ba47e6db474ab9ca0435065765a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene2.unity
     guid: 46cd783a89f81442bb09d1264dcdc0e7
+  - enabled: 1
+    path: Assets/Scenes/TestBall.unity
+    guid: 8e94b0f1c63ee8343b8e62f9ff7d23eb
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: bd4d70b73d858954a862172f9224309f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 17f3c83783bded64f9c4b1a32de7da8b, type: 2}
