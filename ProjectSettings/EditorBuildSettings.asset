@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Archiv/MainScene.unity
     guid: 73896a2efca094bc49cf4a291cb72f06
   - enabled: 1
-    path: Assets/Scenes/FirstScene.unity
+    path: Assets/Scenes/Archiv/FirstScene.unity
     guid: bfa716fd89bf54681943a3edb1cbc344
   - enabled: 1
     path: Assets/Scenes/Archiv/Scene1.unity
