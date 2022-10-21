@@ -2340,7 +2340,7 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1580748351}
-    - target: {fileID: 6882643158502080467, guid: 9a825185bdd814e09aa503ed1b6bd75d, type: 3}
+    - target: {fileID: 6882643158502080467, guid: ed5f037637d798a4ab33ad010b448de2, type: 3}
       propertyPath: m_Name
       value: Venus
       objectReference: {fileID: 0}
