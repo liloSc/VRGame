@@ -17,18 +17,27 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Archiv/MainScene.unity
     guid: 73896a2efca094bc49cf4a291cb72f06
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Archiv/FirstScene.unity
     guid: bfa716fd89bf54681943a3edb1cbc344
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Archiv/Scene1.unity
     guid: 8b0e5ba47e6db474ab9ca0435065765a
   - enabled: 0
     path: Assets/Scenes/Archiv/Scene2.unity
     guid: 46cd783a89f81442bb09d1264dcdc0e7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Archiv/TestBall.unity
     guid: 8e94b0f1c63ee8343b8e62f9ff7d23eb
+  - enabled: 1
+    path: Assets/Scenes/Scene01_Start.unity
+    guid: 08218602de3274a3a98c3c2a1d2cbed2
+  - enabled: 1
+    path: Assets/Scenes/Scene02_Intro.unity
+    guid: 58984e1d69cd44b908e1eb76be5be624
+  - enabled: 1
+    path: Assets/Scenes/Scene03_Game.unity
+    guid: e0cad9a88138c4635b125f68b642b7d6
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: bd4d70b73d858954a862172f9224309f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 17f3c83783bded64f9c4b1a32de7da8b, type: 2}
