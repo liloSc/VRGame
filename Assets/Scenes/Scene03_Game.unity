@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 122575272}
   - component: {fileID: 122575271}
   - component: {fileID: 122575270}
+  - component: {fileID: 122575274}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -218,6 +219,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &122575274
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122575269}
+  serializedVersion: 2
+  m_Mass: 300
+  m_Drag: Infinity
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &288271891
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436830639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.32, y: 0.02, z: -1.31}
+  m_LocalPosition: {x: -1.3, y: 0.02, z: -0.68}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -546,7 +563,7 @@ PrefabInstance:
       objectReference: {fileID: 1580748351}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_InteractionLayerMask.m_Bits
-      value: 64
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.size
@@ -772,7 +789,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742132624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.68, y: -0.88, z: 1.02}
+  m_LocalPosition: {x: 0.36, y: -0.88, z: 0.59}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1242,6 +1259,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neptune
       objectReference: {fileID: 0}
+    - target: {fileID: 72473984730305570, guid: 4ad39d62402d2d64fbf043c47aafdc37, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 72473984730305576, guid: 4ad39d62402d2d64fbf043c47aafdc37, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1359,12 +1380,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1741533177753307326, guid: d4d5a5e36e598714c9bed3e87d14221e, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4382145120057948597, guid: d4d5a5e36e598714c9bed3e87d14221e, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1580748351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d5a5e36e598714c9bed3e87d14221e, type: 3}
+--- !u!1 &184112795614355962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1741533177251128128, guid: d4d5a5e36e598714c9bed3e87d14221e, type: 3}
+  m_PrefabInstance: {fileID: 184112795614355961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &184112795614355963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184112795614355962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActionAssets:
+  - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &2109892859452855385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1379,6 +1423,10 @@ PrefabInstance:
     - target: {fileID: 2109892860019403657, guid: 25f95369ce7e2424f8b0127d8dbbe113, type: 3}
       propertyPath: m_Name
       value: Jupiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109892860019403657, guid: 25f95369ce7e2424f8b0127d8dbbe113, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2109892860019403663, guid: 25f95369ce7e2424f8b0127d8dbbe113, type: 3}
       propertyPath: m_RootOrder
@@ -1511,7 +1559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3215793800152646510, guid: 9476f679bf2abfd44b72995b5c023cd5, type: 3}
       propertyPath: m_MovementType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3215793800152646510, guid: 9476f679bf2abfd44b72995b5c023cd5, type: 3}
       propertyPath: m_InteractionManager
@@ -1520,6 +1568,10 @@ PrefabInstance:
     - target: {fileID: 3215793800152646511, guid: 9476f679bf2abfd44b72995b5c023cd5, type: 3}
       propertyPath: m_Name
       value: Mars
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215793800152646511, guid: 9476f679bf2abfd44b72995b5c023cd5, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9476f679bf2abfd44b72995b5c023cd5, type: 3}
@@ -1602,6 +1654,10 @@ PrefabInstance:
     - target: {fileID: 4163166894812646924, guid: 73c1ef857bd87744db093f0e5ee41e06, type: 3}
       propertyPath: m_Name
       value: Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163166894812646924, guid: 73c1ef857bd87744db093f0e5ee41e06, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4163166894812646925, guid: 73c1ef857bd87744db093f0e5ee41e06, type: 3}
       propertyPath: m_InteractionManager
@@ -1731,6 +1787,10 @@ PrefabInstance:
     - target: {fileID: 4650904776953306540, guid: 146d247d9c992ac42a606391c615fd50, type: 3}
       propertyPath: m_Name
       value: Saturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650904776953306540, guid: 146d247d9c992ac42a606391c615fd50, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4650904776953306541, guid: 146d247d9c992ac42a606391c615fd50, type: 3}
       propertyPath: m_InteractionManager
@@ -1869,6 +1929,10 @@ PrefabInstance:
     - target: {fileID: 5845257060575376430, guid: 869ee0b13aeb3f545bd240419bac8b6b, type: 3}
       propertyPath: m_Name
       value: Uranus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5845257060575376430, guid: 869ee0b13aeb3f545bd240419bac8b6b, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5845257060575376431, guid: 869ee0b13aeb3f545bd240419bac8b6b, type: 3}
       propertyPath: m_InteractionManager
@@ -2290,7 +2354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2345,6 +2409,10 @@ PrefabInstance:
     - target: {fileID: 8434557796580645250, guid: ed5f037637d798a4ab33ad010b448de2, type: 3}
       propertyPath: m_Name
       value: Venus
+      objectReference: {fileID: 0}
+    - target: {fileID: 8434557796580645250, guid: ed5f037637d798a4ab33ad010b448de2, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8434557796580645251, guid: ed5f037637d798a4ab33ad010b448de2, type: 3}
       propertyPath: m_InteractionManager
