@@ -343,7 +343,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122575269}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.07, y: -2, z: 0.27}
+  m_LocalPosition: {x: -1.05, y: -2, z: 0.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 131247660}
@@ -2182,6 +2182,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1580748351}
+    - target: {fileID: 6621648066077031061, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
+      propertyPath: m_InteractionLayerMask.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
 --- !u!4 &1983201759 stripped
@@ -2604,19 +2608,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3512520030023102121, guid: c091fe89651ab974fafdce198eea2d61, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3512520030023102121, guid: c091fe89651ab974fafdce198eea2d61, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3512520030023102121, guid: c091fe89651ab974fafdce198eea2d61, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3512520030023102121, guid: c091fe89651ab974fafdce198eea2d61, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.15
       objectReference: {fileID: 0}
     - target: {fileID: 3512520030023102121, guid: c091fe89651ab974fafdce198eea2d61, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2624,7 +2628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3512520030023102121, guid: c091fe89651ab974fafdce198eea2d61, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3512520030023102121, guid: c091fe89651ab974fafdce198eea2d61, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3408,6 +3412,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1580748351}
+    - target: {fileID: 6621648066077031061, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
+      propertyPath: m_InteractionLayerMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
 --- !u!4 &6621648065620499045 stripped
