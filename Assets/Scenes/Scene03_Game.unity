@@ -4636,6 +4636,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 72473984730305580, guid: 4ad39d62402d2d64fbf043c47aafdc37, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 72473984730305581, guid: 4ad39d62402d2d64fbf043c47aafdc37, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -4748,6 +4752,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2109892860019403657, guid: 25f95369ce7e2424f8b0127d8dbbe113, type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109892860019403659, guid: 25f95369ce7e2424f8b0127d8dbbe113, type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2109892860019403663, guid: 25f95369ce7e2424f8b0127d8dbbe113, type: 3}
@@ -4969,6 +4977,10 @@ PrefabInstance:
       value: Infinity
       objectReference: {fileID: 0}
     - target: {fileID: 3215793800152646509, guid: 9476f679bf2abfd44b72995b5c023cd5, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215793800152646509, guid: 9476f679bf2abfd44b72995b5c023cd5, type: 3}
       propertyPath: m_AngularDrag
       value: 0.05
       objectReference: {fileID: 0}
@@ -5066,6 +5078,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4163166894812646922, guid: 73c1ef857bd87744db093f0e5ee41e06, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4163166894812646924, guid: 73c1ef857bd87744db093f0e5ee41e06, type: 3}
       propertyPath: m_Name
       value: Earth
@@ -5215,6 +5231,10 @@ PrefabInstance:
       propertyPath: m_Drag
       value: Infinity
       objectReference: {fileID: 0}
+    - target: {fileID: 4650904776953306542, guid: 146d247d9c992ac42a606391c615fd50, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 146d247d9c992ac42a606391c615fd50, type: 3}
 --- !u!1001 &5354635354309640800
@@ -5284,6 +5304,10 @@ PrefabInstance:
     - target: {fileID: 5845257060575376416, guid: 869ee0b13aeb3f545bd240419bac8b6b, type: 3}
       propertyPath: m_Drag
       value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 5845257060575376416, guid: 869ee0b13aeb3f545bd240419bac8b6b, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5845257060575376420, guid: 869ee0b13aeb3f545bd240419bac8b6b, type: 3}
       propertyPath: m_RootOrder
@@ -5377,6 +5401,10 @@ PrefabInstance:
     - target: {fileID: 6573827967603052293, guid: 2670c9c76dd7e744bac6ff245d53bfac, type: 3}
       propertyPath: m_Drag
       value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573827967603052293, guid: 2670c9c76dd7e744bac6ff245d53bfac, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6573827967603052313, guid: 2670c9c76dd7e744bac6ff245d53bfac, type: 3}
       propertyPath: m_RootOrder
@@ -5825,6 +5853,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8434557796580645248, guid: ed5f037637d798a4ab33ad010b448de2, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8434557796580645250, guid: ed5f037637d798a4ab33ad010b448de2, type: 3}
       propertyPath: m_Name
       value: Venus
