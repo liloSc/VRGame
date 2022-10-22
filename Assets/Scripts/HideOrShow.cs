@@ -5,6 +5,13 @@ using UnityEngine;
 public class HideOrShow : MonoBehaviour
 {
     public GameObject CanvasObj;
+    public bool visible;
+
+
+    private void Start()
+    {
+        CanvasObj.SetActive(visible);
+    }
 
     public void hide()
     {
