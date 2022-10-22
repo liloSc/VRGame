@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4494196983337146442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 316074991876836725, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002219631858796222, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349967113706461756, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960893336894509559, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412801, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417002412810, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_Name
+      value: XR Rig Prefab with Palette
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771318417369340701, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: near clip plane
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8843659153248582676, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8843659153248582676, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8843659153248582676, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+--- !u!1 &1741533177753307323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2771318417573695729, guid: 361842ade4dee964fb5b2d7863ceb4da, type: 3}
+  m_PrefabInstance: {fileID: 4494196983337146442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1919996539279354179
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741533177753307323}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2
+  m_Center: {x: 0, y: 0, z: 0}
