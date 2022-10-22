@@ -1,4 +1,0 @@
-repository "VRGame@katekoleva@cloud"
-  path "/"
-    br "/main"
-    co "/main"
