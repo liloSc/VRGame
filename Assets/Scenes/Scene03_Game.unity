@@ -4334,7 +4334,7 @@ MonoBehaviour:
   information: {fileID: 1930968484}
   planetInfo: only planet where life exists (that we know of)
   diameter: {fileID: 2028925930}
-  diameterString: 12.756 kilometers
+  diameterString: 'Diameter: 12.756 kilometers'
   distance: {fileID: 1399341787}
   distanceString: 'Distance from the sun: 149,6 million kilometers'
   mass: {fileID: 842046294}
