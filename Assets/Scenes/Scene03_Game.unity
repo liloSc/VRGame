@@ -2871,7 +2871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2891,7 +2891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5234,7 +5234,7 @@ MonoBehaviour:
   PosY: 0
   PosZ: 0
   RotX: 0
-  RotY: 90
+  RotY: 0
   RotZ: 0
 --- !u!1001 &4163166895274932470
 PrefabInstance:
@@ -5750,7 +5750,7 @@ MonoBehaviour:
   PosY: -2
   PosZ: 10
   RotX: 0
-  RotY: 45
+  RotY: 0
   RotZ: 0
 --- !u!1001 &6621648065620499044
 PrefabInstance:
