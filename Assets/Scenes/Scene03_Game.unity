@@ -2895,7 +2895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.95
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4934,7 +4934,7 @@ PrefabInstance:
       objectReference: {fileID: 1580748351}
     - target: {fileID: 7278951455741847963, guid: 8216d8733d0d14247a9022e7ab2905ed, type: 3}
       propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7278951455741847963, guid: 8216d8733d0d14247a9022e7ab2905ed, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.size
@@ -5212,29 +5212,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076b2b3a9e668ba48b612c3ada8163ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasObj: {fileID: 0}
+  CanvasObj: {fileID: 327165341}
   visible: 0
-  title: {fileID: 0}
+  title: {fileID: 487131384}
   planetName: Mars
-  planetImage: {fileID: 0}
-  sourceImg: {fileID: 0}
-  information: {fileID: 0}
-  planetInfo: 
-  diameter: {fileID: 0}
-  diameterString: 
-  distance: {fileID: 0}
-  distanceString: 
-  mass: {fileID: 0}
-  massString: 
-  orbitalPeriod: {fileID: 0}
-  orbitalPeriodStr: 
-  moons: {fileID: 0}
-  moonsString: 
-  PosX: 8
+  planetImage: {fileID: 1692427427}
+  sourceImg: {fileID: 2800000, guid: 34d14ffe884b14d548f98c1f43ea11ad, type: 3}
+  information: {fileID: 1930968484}
+  planetInfo: Extreme highs and lows
+  diameter: {fileID: 2028925930}
+  diameterString: 'Diameter: 6794 kilometers'
+  distance: {fileID: 1399341787}
+  distanceString: 'Distance from the sun: 227,9 million kilometers'
+  mass: {fileID: 842046294}
+  massString: 'Mass: 0,107 Earth masses'
+  orbitalPeriod: {fileID: 522673581}
+  orbitalPeriodStr: 'Orbital period: 687 Earth days'
+  moons: {fileID: 1061404169}
+  moonsString: 'Moons: 2'
+  PosX: 10
   PosY: 0
-  PosZ: 10
+  PosZ: 0
   RotX: 0
-  RotY: 0
+  RotY: 90
   RotZ: 0
 --- !u!1001 &4163166895274932470
 PrefabInstance:
@@ -5746,11 +5746,11 @@ MonoBehaviour:
   orbitalPeriodStr: 'Orbital period: 88 Earth days'
   moons: {fileID: 1061404169}
   moonsString: 'Moons: 0'
-  PosX: 2.5
+  PosX: 10
   PosY: -2
   PosZ: 10
   RotX: 0
-  RotY: 0
+  RotY: 45
   RotZ: 0
 --- !u!1001 &6621648065620499044
 PrefabInstance:
