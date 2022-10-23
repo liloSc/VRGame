@@ -2381,7 +2381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.size
@@ -5428,17 +5428,17 @@ MonoBehaviour:
   information: {fileID: 1930968484}
   planetInfo: unique ring system and the largest ice balls
   diameter: {fileID: 2028925930}
-  diameterString: '120.536 kilometers '
+  diameterString: 'Diameter: 120.536 kilometers '
   distance: {fileID: 1399341787}
-  distanceString: 1433 million kilometers
+  distanceString: 'Distance from the sun: 1433 million kilometers '
   mass: {fileID: 842046294}
-  massString: 95,2 Earth masses
+  massString: 'Mass: 95,2 Earth masses '
   orbitalPeriod: {fileID: 522673581}
-  orbitalPeriodStr: '29,5 Earth days '
+  orbitalPeriodStr: 'Orbital period: 29,5 Earth days'
   moons: {fileID: 1061404169}
-  moonsString: 61+
+  moonsString: 'Moons: 61+'
   PosX: 0
-  PosY: -1
+  PosY: -4
   PosZ: 10
   RotX: 0
   RotY: 0
@@ -5728,25 +5728,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076b2b3a9e668ba48b612c3ada8163ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasObj: {fileID: 0}
+  CanvasObj: {fileID: 327165341}
   visible: 0
-  title: {fileID: 0}
+  title: {fileID: 487131384}
   planetName: Mercury
-  planetImage: {fileID: 0}
+  planetImage: {fileID: 1692427427}
   sourceImg: {fileID: 2800000, guid: 7237ab9a438f042da8c2e0525c158ff9, type: 3}
-  information: {fileID: 0}
-  planetInfo: 
-  diameter: {fileID: 0}
-  diameterString: 
-  distance: {fileID: 0}
-  distanceString: 
-  mass: {fileID: 0}
-  massString: 
-  orbitalPeriod: {fileID: 0}
-  orbitalPeriodStr: 
-  moons: {fileID: 0}
-  moonsString: 
-  PosX: 0
+  information: {fileID: 1930968484}
+  planetInfo: Smallest and fastest planet in our solar system
+  diameter: {fileID: 2028925930}
+  diameterString: 'Diameter: 4879 kilometers'
+  distance: {fileID: 1399341787}
+  distanceString: 'Distance from the sun: 57.9 million kilometers'
+  mass: {fileID: 842046294}
+  massString: 'Mass: 0.055 Earth masses'
+  orbitalPeriod: {fileID: 522673581}
+  orbitalPeriodStr: 'Orbital period: 88 Earth days'
+  moons: {fileID: 1061404169}
+  moonsString: 'Moons: 0'
+  PosX: 2.5
   PosY: -2
   PosZ: 10
   RotX: 0
@@ -6354,7 +6354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.size
