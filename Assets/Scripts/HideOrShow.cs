@@ -23,8 +23,8 @@ public class HideOrShow : MonoBehaviour
 
     public void show()
     {
-        CanvasObj.SetActive(true);
         setText(planetName);
+        CanvasObj.SetActive(true);
     }
 
     public void setText(string name)
