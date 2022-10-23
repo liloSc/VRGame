@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.007943033, g: 0.008186527, b: 0.014628463, a: 1}
+  m_IndirectSpecularColor: {r: 0.007982794, g: 0.00821342, b: 0.014684266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1281,6 +1281,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
   m_PrefabInstance: {fileID: 84211176}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &122575269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,6 +1475,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131247659}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> a6e8d96c846fd7750376afecf792df9305323bca
 --- !u!1 &156680034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3180,6 +3183,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1.1999817}
   m_SizeDelta: {x: 20, y: 7.83}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!1 &932131831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3228,10 +3232,20 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &932131834
 MeshRenderer:
+=======
+--- !u!1 &799738924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8825828919910872580, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+  m_PrefabInstance: {fileID: 1217067307}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &799738925
+MonoBehaviour:
+>>>>>>> a6e8d96c846fd7750376afecf792df9305323bca
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 932131831}
   m_Enabled: 1
   m_CastShadows: 1
@@ -3370,6 +3384,21 @@ Transform:
   m_Father: {fileID: 122575273}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90.293, z: 0}
+=======
+  m_GameObject: {fileID: 799738924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076b2b3a9e668ba48b612c3ada8163ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanvasObj: {fileID: 706246789}
+  visible: 0
+  txt: {fileID: 1279813108}
+  planetName: Neptune
+  PosX: 0
+  PosY: 0
+  PosZ: 0
+>>>>>>> a6e8d96c846fd7750376afecf792df9305323bca
 --- !u!1001 &1217067307
 PrefabInstance:
   m_ObjectHideFlags: 0
