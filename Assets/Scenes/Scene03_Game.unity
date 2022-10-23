@@ -1370,7 +1370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.size
@@ -2615,7 +2615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.size
@@ -2879,11 +2879,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.92387956
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2891,7 +2891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.38268343
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2899,11 +2899,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2911,7 +2911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3102405391958017386, guid: 6315eddc573520f4ba8a90f4e06dcc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -3062,7 +3062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.size
@@ -4325,29 +4325,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076b2b3a9e668ba48b612c3ada8163ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasObj: {fileID: 0}
+  CanvasObj: {fileID: 327165341}
   visible: 0
-  title: {fileID: 0}
+  title: {fileID: 487131384}
   planetName: Earth
-  planetImage: {fileID: 0}
-  sourceImg: {fileID: 0}
-  information: {fileID: 0}
-  planetInfo: 
-  diameter: {fileID: 0}
-  diameterString: 
-  distance: {fileID: 0}
-  distanceString: 
-  mass: {fileID: 0}
-  massString: 
-  orbitalPeriod: {fileID: 0}
-  orbitalPeriodStr: 
-  moons: {fileID: 0}
-  moonsString: 
-  PosX: -4.3
+  planetImage: {fileID: 1692427427}
+  sourceImg: {fileID: 2800000, guid: 1c403bff68e9149a99a846537c683eab, type: 3}
+  information: {fileID: 1930968484}
+  planetInfo: only planet where life exists (that we know of)
+  diameter: {fileID: 2028925930}
+  diameterString: 12.756 kilometers
+  distance: {fileID: 1399341787}
+  distanceString: 'Distance from the sun: 149,6 million kilometers'
+  mass: {fileID: 842046294}
+  massString: 'Mass: 1 Earth masses'
+  orbitalPeriod: {fileID: 522673581}
+  orbitalPeriodStr: 'Orbital period: 365 Earth days'
+  moons: {fileID: 1061404169}
+  moonsString: 'Moons: 1 '
+  PosX: -5
   PosY: 2
   PosZ: 10
   RotX: 0
-  RotY: 0
+  RotY: 20
   RotZ: 0
 --- !u!1 &2111086983
 GameObject:
@@ -4437,7 +4437,7 @@ PrefabInstance:
       objectReference: {fileID: 1580748351}
     - target: {fileID: 8854525914780366968, guid: 028d054476c4b7d45a24e666bcd8e2b2, type: 3}
       propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8854525914780366968, guid: 028d054476c4b7d45a24e666bcd8e2b2, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.size
@@ -4699,29 +4699,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076b2b3a9e668ba48b612c3ada8163ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasObj: {fileID: 0}
+  CanvasObj: {fileID: 327165341}
   visible: 0
-  title: {fileID: 0}
+  title: {fileID: 487131384}
   planetName: Neptune
-  planetImage: {fileID: 0}
-  sourceImg: {fileID: 0}
-  information: {fileID: 0}
-  planetInfo: 
-  diameter: {fileID: 0}
-  diameterString: 
-  distance: {fileID: 0}
-  distanceString: 
-  mass: {fileID: 0}
-  massString: 
-  orbitalPeriod: {fileID: 0}
-  orbitalPeriodStr: 
-  moons: {fileID: 0}
-  moonsString: 
+  planetImage: {fileID: 1692427427}
+  sourceImg: {fileID: 2800000, guid: ea5e7773fa493444992047301398017c, type: 3}
+  information: {fileID: 1930968484}
+  planetInfo: The only planet in our solar system not visible to the naked eye
+  diameter: {fileID: 2028925930}
+  diameterString: 'Diameter: 49.528 kilometers'
+  distance: {fileID: 1399341787}
+  distanceString: 'Distance from the sun: 4495 million kilometers'
+  mass: {fileID: 842046294}
+  massString: 'Mass: 17,1 Earth masses'
+  orbitalPeriod: {fileID: 522673581}
+  orbitalPeriodStr: 'Orbital period: 163,8Earth days'
+  moons: {fileID: 1061404169}
+  moonsString: 'Moons: 13'
   PosX: 0
-  PosY: 5
-  PosZ: 10
+  PosY: -1
+  PosZ: -10
   RotX: 0
-  RotY: 0
+  RotY: 180
   RotZ: 0
 --- !u!1001 &184112795614355961
 PrefabInstance:
@@ -4905,29 +4905,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076b2b3a9e668ba48b612c3ada8163ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasObj: {fileID: 0}
+  CanvasObj: {fileID: 327165341}
   visible: 0
-  title: {fileID: 0}
+  title: {fileID: 487131384}
   planetName: Jupiter
-  planetImage: {fileID: 0}
-  sourceImg: {fileID: 0}
-  information: {fileID: 0}
-  planetInfo: 
-  diameter: {fileID: 0}
-  diameterString: 
-  distance: {fileID: 0}
-  distanceString: 
-  mass: {fileID: 0}
-  massString: 
-  orbitalPeriod: {fileID: 0}
-  orbitalPeriodStr: 
-  moons: {fileID: 0}
-  moonsString: 
+  planetImage: {fileID: 1692427427}
+  sourceImg: {fileID: 2800000, guid: aade9cc91c6644b5687c0f9560b29e54, type: 3}
+  information: {fileID: 1930968484}
+  planetInfo: Shortest days (9.8 hours) and the longest-lived storm (340years)
+  diameter: {fileID: 2028925930}
+  diameterString: 'Diameter: 142.984 kilometers'
+  distance: {fileID: 1399341787}
+  distanceString: 'Distance from the sun: 779 million kilometers'
+  mass: {fileID: 842046294}
+  massString: 'Mass: 317,8 Earth masses'
+  orbitalPeriod: {fileID: 522673581}
+  orbitalPeriodStr: 'Orbital period: 11,9 Earth days'
+  moons: {fileID: 1061404169}
+  moonsString: 'Moons: 63+'
   PosX: -10
   PosY: 0
   PosZ: 10
   RotX: 0
-  RotY: 0
+  RotY: -90
   RotZ: 0
 --- !u!1001 &2269712425496502853
 PrefabInstance:
@@ -5618,29 +5618,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076b2b3a9e668ba48b612c3ada8163ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasObj: {fileID: 0}
+  CanvasObj: {fileID: 327165341}
   visible: 0
-  title: {fileID: 0}
+  title: {fileID: 487131384}
   planetName: Uranus
-  planetImage: {fileID: 0}
-  sourceImg: {fileID: 0}
-  information: {fileID: 0}
-  planetInfo: 
-  diameter: {fileID: 0}
-  diameterString: 
-  distance: {fileID: 0}
-  distanceString: 
-  mass: {fileID: 0}
-  massString: 
-  orbitalPeriod: {fileID: 0}
-  orbitalPeriodStr: 
-  moons: {fileID: 0}
-  moonsString: 
-  PosX: 6
-  PosY: 12
+  planetImage: {fileID: 1692427427}
+  sourceImg: {fileID: 2800000, guid: 8753f54af809144c38230698fa48f54f, type: 3}
+  information: {fileID: 1930968484}
+  planetInfo: Most unusual seasons
+  diameter: {fileID: 2028925930}
+  diameterString: 'Diameter: 51.118 kilometers'
+  distance: {fileID: 1399341787}
+  distanceString: 'Distance from the sun: 2871 million kilometers'
+  mass: {fileID: 842046294}
+  massString: 14,5 Earth masses
+  orbitalPeriod: {fileID: 522673581}
+  orbitalPeriodStr: 'Orbital period: 83,8 Earth days '
+  moons: {fileID: 1061404169}
+  moonsString: 'Moons: 27'
+  PosX: 10
+  PosY: -1
   PosZ: -10
   RotX: 0
-  RotY: 0
+  RotY: 180
   RotZ: 0
 --- !u!1001 &6573827967415268008
 PrefabInstance:
@@ -6263,7 +6263,7 @@ MonoBehaviour:
   planetImage: {fileID: 1692427427}
   sourceImg: {fileID: 2800000, guid: e2422cdc29ca64075acde99ed3c96d23, type: 3}
   information: {fileID: 1930968484}
-  planetInfo: Temperatures on Venus rise to 460 degrees during the day
+  planetInfo: Temperatures on Venus rise to 460 degrees
   diameter: {fileID: 2028925930}
   diameterString: 'Diameter: 12.104 kilometers'
   distance: {fileID: 1399341787}
@@ -6278,7 +6278,7 @@ MonoBehaviour:
   PosY: 4
   PosZ: 10
   RotX: 0
-  RotY: -45
+  RotY: 60
   RotZ: 0
 --- !u!1001 &8825828920828041997
 PrefabInstance:
