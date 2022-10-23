@@ -452,7 +452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -838,7 +838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1224,7 +1224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1377,7 +1377,7 @@ Transform:
   - {fileID: 932131832}
   - {fileID: 949371256}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &131247659
 GameObject:
@@ -1570,6 +1570,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Uranus
+  PosX: 0
+  PosY: 0
+  PosZ: 0
 --- !u!1 &184339059 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8825828919910872580, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
@@ -1591,6 +1594,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Mercury
+  PosX: 0
+  PosY: 0
+  PosZ: 0
 --- !u!1001 &214366798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2050,7 +2056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2436,7 +2442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3062,8 +3068,8 @@ RectTransform:
   m_Children:
   - {fileID: 156680035}
   - {fileID: 1279813107}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 184112795614355965}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3091,6 +3097,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Neptune
+  PosX: 0
+  PosY: 0
+  PosZ: 0
 --- !u!1 &932131831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3659,10 +3668,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
@@ -3670,27 +3683,71 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8434557797790375921}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1431491804}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8434557797790375921}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: hide
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_enabled
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: show
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HideOrShow, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.Renderer, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HideOrShow, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverExited.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
       propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825828919910872583, guid: 2dee99a0ab5db5f4980cde118ddccef6, type: 3}
+      propertyPath: m_OnHoverEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4029,7 +4086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalScale.x
@@ -4136,36 +4193,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1611938037
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1611938038}
-  m_Layer: 0
-  m_Name: hideOrShowText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1611938038
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611938037}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1983201758
 PrefabInstance:
@@ -4496,7 +4523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4574,6 +4601,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Earth
+  PosX: 0
+  PosY: 0
+  PosZ: 0
 --- !u!1 &2111086983
 GameObject:
   m_ObjectHideFlags: 0
@@ -4647,7 +4677,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &43413958056890717
 PrefabInstance:
@@ -4731,7 +4761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 72473984730305576, guid: 4ad39d62402d2d64fbf043c47aafdc37, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 72473984730305576, guid: 4ad39d62402d2d64fbf043c47aafdc37, type: 3}
       propertyPath: m_LocalScale.x
@@ -4816,6 +4846,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Neptune
+  PosX: 0
+  PosY: 0
+  PosZ: 0
 --- !u!1001 &184112795614355961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4829,7 +4862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1741533177251128139, guid: d4d5a5e36e598714c9bed3e87d14221e, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1741533177251128139, guid: d4d5a5e36e598714c9bed3e87d14221e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4905,6 +4938,11 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 1741533177689490263, guid: d4d5a5e36e598714c9bed3e87d14221e, type: 3}
   m_PrefabInstance: {fileID: 184112795614355961}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &184112795614355965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1741533177251128139, guid: d4d5a5e36e598714c9bed3e87d14221e, type: 3}
+  m_PrefabInstance: {fileID: 184112795614355961}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2109892859452855385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4930,7 +4968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2109892860019403663, guid: 25f95369ce7e2424f8b0127d8dbbe113, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2109892860019403663, guid: 25f95369ce7e2424f8b0127d8dbbe113, type: 3}
       propertyPath: m_LocalScale.x
@@ -5007,6 +5045,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Jupiter
+  PosX: 0
+  PosY: 0
+  PosZ: 0
 --- !u!1001 &2269712425496502853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5109,7 +5150,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3215793800152646505, guid: 9476f679bf2abfd44b72995b5c023cd5, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3215793800152646505, guid: 9476f679bf2abfd44b72995b5c023cd5, type: 3}
       propertyPath: m_LocalScale.x
@@ -5214,6 +5255,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Mars
+  PosX: 0
+  PosY: 0
+  PosZ: 0
 --- !u!1001 &4163166895274932470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5239,7 +5283,7 @@ PrefabInstance:
       objectReference: {fileID: 1580748351}
     - target: {fileID: 4163166894812647414, guid: 73c1ef857bd87744db093f0e5ee41e06, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4163166894812647414, guid: 73c1ef857bd87744db093f0e5ee41e06, type: 3}
       propertyPath: m_LocalScale.x
@@ -5304,7 +5348,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4650904776953306538, guid: 146d247d9c992ac42a606391c615fd50, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4650904776953306538, guid: 146d247d9c992ac42a606391c615fd50, type: 3}
       propertyPath: m_LocalScale.x
@@ -5401,6 +5445,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Saturn
+  PosX: 0
+  PosY: 2.3
+  PosZ: 0
 --- !u!1001 &5354635354309640800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5475,7 +5522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5845257060575376420, guid: 869ee0b13aeb3f545bd240419bac8b6b, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5845257060575376420, guid: 869ee0b13aeb3f545bd240419bac8b6b, type: 3}
       propertyPath: m_LocalScale.x
@@ -5564,6 +5611,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Uranus
+  PosX: 0
+  PosY: 0
+  PosZ: 0
 --- !u!1001 &6573827967415268008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5593,7 +5643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6573827967603052313, guid: 2670c9c76dd7e744bac6ff245d53bfac, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6573827967603052313, guid: 2670c9c76dd7e744bac6ff245d53bfac, type: 3}
       propertyPath: m_LocalScale.x
@@ -5670,6 +5720,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Mercury
+  PosX: 0
+  PosY: 0
+  PosZ: 0
 --- !u!1001 &6621648065620499044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5999,7 +6052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6621648066077031060, guid: 36713d62f21ef8f4582c275e1b6b10c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6081,7 +6134,7 @@ PrefabInstance:
       objectReference: {fileID: 1580748351}
     - target: {fileID: 8434557796580645276, guid: ed5f037637d798a4ab33ad010b448de2, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8434557796580645276, guid: ed5f037637d798a4ab33ad010b448de2, type: 3}
       propertyPath: m_LocalScale.x
@@ -6163,6 +6216,9 @@ MonoBehaviour:
   visible: 0
   txt: {fileID: 1279813108}
   planetName: Venus
+  PosX: 0
+  PosY: 1
+  PosZ: 0
 --- !u!1001 &8825828920828041997
 PrefabInstance:
   m_ObjectHideFlags: 0
