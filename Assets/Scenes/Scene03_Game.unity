@@ -4714,7 +4714,7 @@ MonoBehaviour:
   mass: {fileID: 842046294}
   massString: 'Mass: 17,1 Earth masses'
   orbitalPeriod: {fileID: 522673581}
-  orbitalPeriodStr: 'Orbital period: 163,8Earth days'
+  orbitalPeriodStr: 'Orbital period: 163,8Earth years'
   moons: {fileID: 1061404169}
   moonsString: 'Moons: 13'
   PosX: 0
@@ -4920,7 +4920,7 @@ MonoBehaviour:
   mass: {fileID: 842046294}
   massString: 'Mass: 317,8 Earth masses'
   orbitalPeriod: {fileID: 522673581}
-  orbitalPeriodStr: 'Orbital period: 11,9 Earth days'
+  orbitalPeriodStr: 'Orbital period: 11,9 Earth years'
   moons: {fileID: 1061404169}
   moonsString: 'Moons: 63+'
   PosX: 0
@@ -5450,7 +5450,7 @@ MonoBehaviour:
   mass: {fileID: 842046294}
   massString: 'Mass: 95,2 Earth masses '
   orbitalPeriod: {fileID: 522673581}
-  orbitalPeriodStr: 'Orbital period: 29,5 Earth days'
+  orbitalPeriodStr: 'Orbital period: 29,5 Earth years'
   moons: {fileID: 1061404169}
   moonsString: 'Moons: 61+'
   PosX: 0
@@ -5633,7 +5633,7 @@ MonoBehaviour:
   mass: {fileID: 842046294}
   massString: 14,5 Earth masses
   orbitalPeriod: {fileID: 522673581}
-  orbitalPeriodStr: 'Orbital period: 83,8 Earth days '
+  orbitalPeriodStr: 'Orbital period: 83,8 Earth years'
   moons: {fileID: 1061404169}
   moonsString: 'Moons: 27'
   PosX: 0
