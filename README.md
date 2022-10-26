@@ -6,7 +6,7 @@ The task is to put the planets in their right orbits while learning more about t
 Katerina Koleva and Liselotte Schulz
 
 # Device
-The VR Space Game is designed in Unity for Pico G2 4K. 
+The VR Space Game is designed in Unity 2020.3.34f1 for Pico G2 4K. 
 
 # Development
 We used both Windows and iOs in the process of creating the project, but we build and exported on Windows device for Android Platform.
