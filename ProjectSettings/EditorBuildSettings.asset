@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SolarSystem.unity
     guid: a3169293fb9aabf44bc0610a8eab8184
-  - enabled: 0
-    path: Assets/Scenes/Scene03_Game.unity
-    guid: 4b33f9c71f160c64884925f502cb9e33
   - enabled: 1
     path: Assets/Scenes/Scene01_Start.unity
     guid: 08218602de3274a3a98c3c2a1d2cbed2
@@ -24,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene02_Intro.unity
     guid: 58984e1d69cd44b908e1eb76be5be624
   - enabled: 1
+    path: Assets/Scenes/Scene03_Game.unity
+    guid: 4b33f9c71f160c64884925f502cb9e33
+  - enabled: 0
     path: Assets/Scenes/Scene03_old.unity
     guid: e0cad9a88138c4635b125f68b642b7d6
   m_configObjects:
