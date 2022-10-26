@@ -2399,7 +2399,7 @@ MonoBehaviour:
   title: {fileID: 487131384}
   planetName: Uranus
   planetImage: {fileID: 1692427427}
-  sourceImg: {fileID: 2800000, guid: 8753f54af809144c38230698fa48f54f, type: 3}
+  sourceImg: {fileID: 2800000, guid: 26a8126d8372a10409790782f7e8dfa4, type: 3}
   information: {fileID: 1930968484}
   planetInfo: Most unusual seasons
   diameter: {fileID: 2028925930}
