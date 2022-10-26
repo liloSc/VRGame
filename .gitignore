@@ -1,6 +1,6 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 
-/apk
+/apks
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 /[Ll]ibrary/
@@ -57,7 +57,7 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
+#*.apk
 *.aab
 *.unitypackage
 *.app
